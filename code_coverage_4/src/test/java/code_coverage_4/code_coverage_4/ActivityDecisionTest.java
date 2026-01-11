@@ -5,7 +5,8 @@ public class ActivityDecisionTest {
 
 @Test
     public void testConstructor() {
-        new ActivityDecision();
+        ActivityDecision activity = new ActivityDecision();
+        assertEquals(activity != null, true);
     }
     // Case 1: Walking + Midnight + Raining
     @Test
